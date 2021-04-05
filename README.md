@@ -1,5 +1,8 @@
 # BookStore application
  - App made with django as backend and vue-js as frontend
+
+DEMO VIDEO:
+
 [![DEMO VIDEO](https://img.youtube.com/vi/avik12MpSB4/0.jpg)](https://www.youtube.com/watch?v=avik12MpSB4)
 
 # Usage
