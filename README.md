@@ -38,6 +38,7 @@ The relation between users and books is a `ManytoManyField` handled by an auxili
 in `vue-frontend` folder:
 - `npm install`
 - `npm run serve`
+
 in `root` folder:
 - create a python environment. ex: `ptyhon -m venv env`
 - activate environment. ex: `env\Source\activate`
