@@ -34,3 +34,13 @@ The relation between users and books is a `ManytoManyField` handled by an auxili
 - handles **cors** for a more secure login/register  
 
 
+### To run the app
+in `vue-frontend` folder:
+- `npm install`
+- `npm run serve`
+in `root` folder:
+- create a python environment. ex: `ptyhon -m venv env`
+- activate environment. ex: `env\Source\activate`
+- `pip install -r requirments.txt`
+- `python manage.py runserver`
+
