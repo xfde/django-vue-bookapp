@@ -1,6 +1,6 @@
 # BookStore application
  - App made with django as backend and vue-js as frontend
- <iframe width="560" height="315" src="https://www.youtube.com/embed/avik12MpSB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![DEMO VIDEO](https://img.youtube.com/vi/avik12MpSB4/0.jpg)](https://www.youtube.com/watch?v=avik12MpSB4)
 
 # Usage
 Users can create an account/ login using their credentials and see a full list of books. They can add books to their favorites list or remove them.
