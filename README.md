@@ -1,18 +1,32 @@
-**If you are here because you want to jumpstart your own Vue + Django project using these methods, then check out the [Django Vue Cookiecutter](https://github.com/ilikerobots/cookiecutter-vue-django) instead**.  The cookiecutter project is more flexible, has more options, has better demonstrations of Vue + Django, and is intended for production deployment.  
+# BookStore application
+ - App made with django as backend and vue-js as frontend
 
-This is the companion repository to the series of articles
- * [Vue + Django — Best of Both Frontends](https://medium.com/js-dojo/vue-django-best-of-both-frontends-701307871478)
- * [Vue + Django — Best of Both Frontends, Part 2](https://medium.com/js-dojo/django-vue-vuex-best-of-both-frontends-part-2-1dcb78215575)
- * [Django + Vue — Blazing Content, Rich Interactivity](https://medium.com/js-dojo/django-vue-blazing-content-rich-interactivity-b34e45d8c602)
+# Usage
+Users can create an account/ login using their credentials and see a full list of books. They can add books to their favorites list or remove them.
+They can also create new entries of books that will show up in the list of books.
 
-This companion application illustrates the fusion of Django and Vue, allowing combined use of both without compromising the strengths and full power of either. With the techniques utilized in the repo, the developer is free to mix Django Templates and Vue throughout an application, using either where most adantageous.
+#Tehchnology
+django handles the api endpoints creating/storing/editing lists and books while also create and authenticating users.
 
-Specifically, the application features:
-  * Vue Single File Components (SFCs)
-  * Vuex support with preserved state across components and page loads
-  * Hot Reloading of Vue components
-  * Configurable bundling of Vue JS/CSS resources
-  * Support for deferred loading of some or all Vue resources
-  * Standard use of Django templating where desired
+*Book Model:*
+- author
+- title
+- description
+- poster image
 
- 
+The relation between users and books is a `ManytoManyField` handled by an auxiliary model `Profile`.
+
+##### FrontEnd:
+- **Vue.js 3** project made with vue cli
+- Form validation for login
+- Uses **Vuex** for storing lists and user status and **Vue router** to navigate the SPA
+- Uses **Element UI** (Element Plus for vue 3) as front-end design framework
+-  Use **Axios** in order to communicate with api
+
+##### Backend:
+- Uses **django-webpack-loader** to serve vuejs
+- Uses **django-rest-framework** to create the apis
+- Uses Django's default **users model** for authentication
+- handles **cors** for a more secure login/register  
+
+
