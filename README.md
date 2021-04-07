@@ -9,8 +9,8 @@ DEMO VIDEO:
 Users can create an account/ login using their credentials and see a full list of books. They can add books to their favorites list or remove them.
 They can also create new entries of books that will show up in the list of books.
 
-#Tehchnology
-django handles the api endpoints creating/storing/editing lists and books while also create and authenticating users.
+# Tehchnology
+django handles the api endpoints creating/storing/editing lists and books while also creating and authenticating users.
 
 *Book Model:*
 - author
